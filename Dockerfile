@@ -1,3 +1,3 @@
-FROM elasticsearch:2.3
+FROM elasticsearch:5.6-alpine
 
-RUN bin/plugin install analysis-smartcn
+RUN bin/elasticsearch-plugin install analysis-smartcn
