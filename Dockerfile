@@ -1,3 +1,3 @@
-FROM elasticsearch:7.9.1
+FROM elasticsearch:7.10.2
 
 RUN bin/elasticsearch-plugin install analysis-smartcn
